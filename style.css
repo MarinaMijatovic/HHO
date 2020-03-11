@@ -1,0 +1,102 @@
+body{
+   /* background-color: #139799;*/
+    background-color:#057359;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+	
+	
+}
+h1,h2{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+
+
+section.parallax-bg-1{
+    background-size: cover;
+
+}
+section{
+    /*Photo by Gaelle Marcel on Unsplash
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@gaellemarcel?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Gaelle Marcel"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Gaelle Marcel</span></a>*/
+	background: url(images/hho.jpg) no-repeat center center fixed; 
+
+	color: white;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+.row{
+    margin: 0;
+}
+
+.carousel-inner{
+     background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-item h3 {
+    font-size: 3rem;
+
+}
+
+.carousel-item p{
+    font-size: 2rem;
+}
+.carousel-item img{
+    height: 3rem;
+    width: 4rem;
+}
+.carousel-item{
+    padding: 200px;
+}
+.tehnologija{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.break{
+	height: 8rem;
+}
+
+.gmap_canvas{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.gmap-canvas iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.video{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.video img {
+	border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    background-color: grey;
+}
+.caption {
+    display: block;
+}
+
+.container-fluid{
+    width: 100%;
+    padding: 0;
+    margin:auto;
+     
+}
